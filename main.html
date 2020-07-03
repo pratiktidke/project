@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tralala App</title>
+    <link rel="stylesheet" href="external/reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navigate">
+        <div class="menu">
+            <span class="pointer">
+                <i class="home fas fa-home"></i>
+            </span>
+            <span class="pointer">
+                <i class="board fas fa-th-list"></i>
+                Board
+            </span>
+            <span class="search">
+                <input type="text" class="search1">
+            </span>
+        </div>
+        <div class="app-title">
+            Tralala
+        </div>
+        <div class="login">
+            <span class="pointer" >
+                <i class="fas fa-plus" id="add-another-account"></i>
+            </span>
+            <span class="pointer">
+                <i class="fas fa-user" id="user-info"></i>
+            </span>
+        </div>
+    </nav>
+    <header>
+        <div class="topic">
+            Frontend Training
+        </div>
+        <div class="show-menu">
+            <i class="fas fa-ellipsis-v"></i>
+            Show menu
+        </div>
+    </header>    
+    <div class="board-container">
+        <div class="wrapper">
+            <div class="head">
+                <span class="task">To Do</span>
+                <span class="dot">...</span>
+            </div>
+            <div class="element" >
+                Learn HTML
+                <i class="task-edit fas fa-pencil-alt pointer" id="pencil"></i>
+            </div>
+            <div class="element" >
+                Learn CSS
+                <i class="task-edit fas fa-pencil-alt pointer" id="pencil"></i>
+            </div>
+            <div class="element" >
+                Learn JavaScript
+                <i class="task-edit fas fa-pencil-alt pointer" id="pencil"></i>
+            </div>
+            <div class="add-another">
+                 + Add another card
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="head">
+                <span class="task">Doing</span>
+                <span class="dot">...</span>
+            </div>
+            <div class="element">
+                Prepare resume
+                <i class="task-edit fas fa-pencil-alt pointer" id="pencil"></i>
+            </div>
+            <textarea rows="3" placeholder="Enter the title for this card ..."></textarea>
+            <form class="add-card">
+                <button type="submit" class="add-button">Add Card</button>
+                <i class="fas fa-2x fa-times add-card-cancel" id="cross"></i>
+            </form>
+        </div>
+        <div class="wrapper">
+            <div class="head">
+                <span class="task">Testing/Verifying</span>
+                <span class="dot">...</span>
+            </div>
+            <div class="element" >
+                Twitter App Frontend
+                <i class="task-edit fas fa-pencil-alt pointer" id="pencil"></i>
+            </div>
+            <div class="add-another">
+                + Add another card
+           </div>
+        </div>
+        <div class="wrapper">
+            <div class="head">
+                <span class="task">Deploying</span>
+                <span class="dot">...</span>
+            </div>
+            <div class="element" >
+                Twitter App Backend
+                <i class="task-edit fas fa-pencil-alt pointer" id="pencil"></i>
+            </div>
+            <div class="add-another">
+                + Add another card
+           </div>
+        </div>
+        <div class="wrapper">
+            <div class="head">
+                <span class="task">Done</span>
+                <span class="dot">...</span>
+            </div>
+            <div class="add-another">
+                + Add card
+           </div>
+        </div>
+        <div class="wrapper">
+            <div class="add-another">
+                + Add another list
+           </div>
+        </div>
+        <div class="wrapper">
+            <textarea rows="3" placeholder="Enter the title for this card ..."></textarea>
+            <form class="add-card">
+                <button type="submit" class="add-button">Add Card</button>
+                <i class="fas fa-2x fa-times add-card-cancel" id="cross"></i>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
